@@ -1,0 +1,36 @@
+.image-item {
+  list-style-type: none;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.image {
+  height: 150px;
+  width: 300px;
+}
+.name-button-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f1f2f;
+  padding: 10px;
+}
+.country-name {
+  font-size: 15px;
+  font-family: roboto;
+  color: #94a3b8;
+}
+.remove-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #94a3b8;
+  align-self: center;
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  align-self: center;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+}

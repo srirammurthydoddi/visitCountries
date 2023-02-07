@@ -1,0 +1,45 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161624;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.countries-name-container {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
+.heading {
+  font-family: roboto;
+  font-size: 30px;
+  color: #f8fafc;
+  font-weight: bold;
+}
+.visited-countries-container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-family: roboto;
+  font-size: 30px;
+  color: #f8fafc;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.country-names-list {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+.country-images-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.no-visited-countries {
+  font-size: 40px;
+  color: #cbd5e1;
+  text-align: center;
+}
